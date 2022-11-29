@@ -2,34 +2,33 @@
 
 String  day = Console.ReadLine();
 
-if (day == "1");
+switch (day)
 {
+    case "1" : 
     Console.WriteLine("Monday");
-}
-if (day == "2");
-{
+    break;
+    
+    case "2" : 
     Console.WriteLine("Tuesday");
-}
-
-if (day == "3");
-{
+    break;
+    
+    case "3" : 
     Console.WriteLine("Wednesday");
-}
-if (day == "4");
-{
+    break;
+    
+    case "4" : 
     Console.WriteLine("Thursday");
-}
-
-if (day == "5");
-{
+    break;
+    
+    case "5" : 
     Console.WriteLine("Friday");
-}
-if (day == "6");
-{
+    break;
+    
+    case "6" : 
     Console.WriteLine("Saturday");
-}
-
-if (day == "7");
-{
+    break;
+    
+    case "7" : 
     Console.WriteLine("Sunday");
+    break;
 }
