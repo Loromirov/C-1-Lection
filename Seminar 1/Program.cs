@@ -1,9 +1,6 @@
-﻿Console.WriteLine("Введите число: ");
+﻿Console.WriteLine("Введите число ");
 
-string nfirst = Console.ReadLine() ?? "";
-int n = Convert.ToInt32(nfirst);
-n = Math.Abs(n);
-for (int i = -(n); i <= n; i++)
-{
-    Console.Write(i, " ");
-}
+string nstring = Console.ReadLine();
+int n = Convert.ToInt32(nstring);
+
+Console.WriteLine(n % 10);
